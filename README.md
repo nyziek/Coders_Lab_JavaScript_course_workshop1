@@ -1,2 +1,4 @@
-# Coders_Lab_JavaScript_course_workshop1
-Coder's Lab JavaScript course - 1st workshop - HTML &amp; CSS
+# Coder's Lab JavaScript course Workshop 1
+1st Workshop within Coder's Lab JavaScript course - HTML &amp; CSS.
+
+The aim of the workshop is to recreate a website basing on the design provided in jpg file.
