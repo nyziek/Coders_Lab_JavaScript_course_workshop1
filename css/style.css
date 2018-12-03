@@ -61,7 +61,7 @@ body {
     padding: 0 2px;
 }
 
-/*Header*/
+/*HEADER*/
 
 .header {
     background: #000000;
@@ -116,4 +116,109 @@ body {
     text-decoration: none;
     color: #FFFFFF;
     padding: 13px 0;
+}
+
+/*SLIDESHOW*/
+
+
+/*Background*/
+
+.slideshow {
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 54%, rgba(200,203,210,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(54%, rgba(255,255,255,1)), color-stop(100%, rgba(200,203,210,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 54%, rgba(200,203,210,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 54%, rgba(200,203,210,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 54%, rgba(200,203,210,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 54%, rgba(200,203,210,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c8cbd2', GradientType=0 );
+
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2px 0;
+}
+
+/*Slideshow*/
+
+.slideshow .container {
+    display: flex;
+    align-items: center;
+}
+
+.slideshow__window {
+    width: 90%;
+    list-style-type: none;
+}
+
+.slideshow__slide {
+    display: flex;
+}
+
+/*Slide left side*/
+
+.slide__image {
+    width: 40%;
+    padding: 65px 0 5px 0;
+    z-index: 1;
+}
+
+.slide__image img {
+    width: 590px;
+    margin-left: -90px;
+}
+
+/*Slide right side*/
+
+.slide__text {
+    width: 60%;
+    text-align: center;
+    box-sizing: border-box;
+    margin-left: -20px;
+}
+
+.slide__text h2 {
+    padding: 135px 0 0 0;
+    text-transform: uppercase;
+    font-size: 38px;
+    word-spacing: 5px;
+}
+
+.slide__text--emphasized {
+    font-family: "ralewaybold", Arial, sans-serif;
+    color: #24B89E;
+}
+
+
+.slide__text p {
+    padding: 25px 65px 45px 65px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.slide__button {
+    padding: 13px 40px 13px 40px;
+    background: #24B89E;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 24px;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 10px;
+}
+
+/*Slideshow arrows left & right*/
+
+.slideshow__arrow {
+    width: 5%;
+    font-size: 75px;
+    font-family: "ralewaylight", Arial, sans-serif;
+    text-align: center;
+}
+
+.slideshow__arrow a {
+    display: block;
+    text-decoration: none;
+    color: #24B89E;
+    position: relative;
+    z-index: 99999;
 }
