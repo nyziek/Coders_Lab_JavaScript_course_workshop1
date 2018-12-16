@@ -11,7 +11,15 @@
         <div class="container">
             <h1 class="header__logo"><a href="index.html">sit <span class="header__logo--emphasized">on</span> chair</a></h1>
             <ul class="menu">
-                <li class="menu__item"><a href="#">o firmie</a></li>
+                <li class="menu__item">
+                    <a href="#">o firmie</a>
+                    <ul class="dropdownMenu">
+                        <li class="dropdownMenu__hiddenItem"></li>
+                        <li><a href="#">Aktualności</a></li>
+                        <li><a href="#">Nasz team</a></li>
+                        <li><a href="#">Historia</a></li>
+                    </ul>
+                </li>
                 <li class="menu__item"><a href="#">galeria</a></li>
                 <li class="menu__item"><a href="#">kontakt</a></li>
             </ul>
@@ -51,25 +59,108 @@
 
     <section class="products">
         <div class="container">
-
+            <article class="article article__image">
+                <img src="images/box1_img.jpg">
+                <h3>
+                    Chair CLAIR
+                </h3>
+            </article>
+            <article class="article article__image">
+                <img src="images/box2_img.jpg">
+                <h3>
+                    Chair MARGARITA
+                </h3>
+            </article>
+            <article class="article article__text">
+                <h3>
+                    Finds all inputs
+                </h3>
+                <p>
+                    Finds all inputs that are not checked and highlights the next sibling span. Notice
+                    there is no change when clicking the checkboxes since no click events have been linked.
+                    <br><br> Notice there is no change when clicking the checkboxes since no click events
+                    have been
+                </p>
+            </article>
         </div>
     </section>
 
     <section class="prices">
         <div class="container">
-
+            <h4 class="section__title">CENNIK</h4>
+            <div class="prices__plans">
+                <div class="pricePlan">
+                    <h5 class="pricePlan__title">BASIC PLAN</h5>
+                    <div class="pricePlan__price">
+                        <span>85<sup>99</sup></span>
+                        PLN/MSC
+                    </div>
+                    <ul class="pricePlan__list">
+                        <li class="pricePlan__listItem">Zakup towaru + dowóz</li>
+                        <li class="pricePlan__listItem">Serwis</li>
+                    </ul>
+                    <a class="pricePlan__joinButton" href="#">DOŁĄCZ</a>
+                </div>
+                <div class="pricePlan pricePlan--emphasized">
+                    <h5 class="pricePlan__title pricePlan__title--emphasized">STANDARD PLAN</h5>
+                    <div class="pricePlan__price pricePlan__price--emphasized">
+                        <span>95<sup>99</sup></span>
+                        PLN/MSC
+                    </div>
+                    <ul class="pricePlan__list pricePlan__list--emphasized">
+                        <li class="pricePlan__listItem">Zakup towaru + dowóz</li>
+                        <li class="pricePlan__listItem">Serwis</li>
+                        <li class="pricePlan__listItem">Gwarancja 5 lat</li>
+                    </ul>
+                    <a class="pricePlan__joinButton pricePlan__joinButton--emphasized" href="#">DOŁĄCZ</a>
+                </div>
+                <div class="pricePlan">
+                    <h5 class="pricePlan__title">ADVANCE PLAN</h5>
+                    <div class="pricePlan__price pricePlan__price--threeDigits">
+                        <span>211<sup>00</sup></span>
+                        PLN/MSC
+                    </div>
+                    <ul class="pricePlan__list">
+                        <li class="pricePlan__listItem">Zakup towaru + dowóz</li>
+                        <li class="pricePlan__listItem">Serwis</li>
+                        <li class="pricePlan__listItem">Gwarancja 6 lat</li>
+                        <li class="pricePlan__listItem">Porady projektanta</li>
+                    </ul>
+                    <a class="pricePlan__joinButton" href="#">DOŁĄCZ</a>
+                </div>
+            </div>
         </div>
     </section>
 
     <section class="contact">
         <div class="container">
-
+            <h4 class="section__title">KONTAKT</h4>
+            <form class="contactForm">
+                <fieldset class="contactForm__fieldset contactForm__fieldsetOne">
+                    <input type="text" placeholder="Imię">
+                    <input type="email" placeholder="email">
+                    <textarea placeholder="Wiadomość" rows="4" cols="40"></textarea>
+                </fieldset>
+                <fieldset class="contactForm__fieldset contactForm__fieldsetTwo">
+                    <img src="images/red_chair.png">
+                    <input type="checkbox" id="confirm">
+                    <label for="confirm">Zgadzam się na przetwarzanie danych osobowych</label>
+                    <button type="submit">WYŚLIJ</button>
+                </fieldset>
+            </form>
         </div>
     </section>
 
-    <footer>
+    <footer class="footer">
         <div class="container">
-
+            <p>Copyright 2014 | All Rights Reserved. - Sit On Chair</p>
+            <ul class="socialMedia">
+                <li class="socialMedia__item"><a href="#"><img src="images/flickr.png"></a></li>
+                <li class="socialMedia__item"><a href="#"><img src="images/vimeo.png"></a></li>
+                <li class="socialMedia__item"><a href="#"><img src="images/pinterest.png"></a></li>
+                <li class="socialMedia__item"><a href="#"><img src="images/twitter.png"></a></li>
+            </ul>
+            <a class="footer__logo" href="index.html">SIT <span>ON</span> CHAIR</a>
         </div>
     </footer>
 
