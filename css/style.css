@@ -145,7 +145,6 @@ body {
 }
 
 .dropdownMenu li:first-of-type {
-    content="";
     background: transparent;
     height: 11px;
     position: relative;
