@@ -169,12 +169,6 @@ body {
     margin-left: -10px;
 }
 
-.menu__item:first-of-type:hover ul {
-    max-height: 500px;
-    opacity: 1;
-    visibility: visible;
-}
-
 /*SLIDESHOW*/
 
 
@@ -208,6 +202,10 @@ body {
 }
 
 .slideshow__slide {
+    display: none;
+}
+
+.visible {
     display: flex;
 }
 
@@ -221,6 +219,7 @@ body {
 
 .slide__image img {
     width: 590px;
+    height: 423px;
     margin-left: -90px;
 }
 
