@@ -118,6 +118,10 @@ body {
     padding: 13px 0;
 }
 
+.menu__item a:hover {
+    color: #24B89E;
+}
+
 /*Dropdown menu*/
 
 .menu__item:first-of-type {
@@ -154,6 +158,10 @@ body {
     box-sizing: border-box;
     width: 100%;
     padding: 8px 0 8px 13px;
+}
+
+.dropdownMenu li a:hover {
+    color: #24B89E;
 }
 
 .dropdownMenu__hiddenItem:before {
@@ -262,6 +270,10 @@ body {
     cursor: pointer;
 }
 
+.slide__button:hover {
+    background: #000000;
+}
+
 /*Slideshow arrows left & right*/
 
 .slideshow__arrow {
@@ -277,6 +289,10 @@ body {
     color: #24B89E;
     position: relative;
     z-index: 99999;
+}
+
+.slideshow__arrow a:hover {
+    color: #000000;
 }
 
 /*PRODUCTS*/
